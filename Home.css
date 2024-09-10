@@ -1,3 +1,16 @@
 .title {
     text-align: center;
 }
+
+.description {
+    text-align: center;
+}
+
+.links h3 {
+    margin: 0 300px; /* Adjusts the spacing between items */
+    margin-left: 400px;
+}
+
+.sign-up {
+    text-align: center;
+}
