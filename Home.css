@@ -48,3 +48,21 @@
 .Learn_more {
     text-align: center;
 }
+
+.For_Individuals {
+    text-align: center;
+}
+
+.Individuals_Quotes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Individuals_Quotes h3 {
+    margin: 0 400px;
+}
+
+.Individuals_Content {
+    display: flex;
+    justify-content: space-between;
+}
