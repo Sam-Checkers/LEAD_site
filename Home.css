@@ -22,3 +22,29 @@
 .Three_Cs {
     margin: 0 20px;
 }
+
+.Video_message {
+    text-align: center;
+}
+
+.For_Organizations {
+    text-align: center;
+}
+
+.Org_Quotes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Org_Quotes h3 {
+    margin: 0 400px;
+}
+
+.Orgs_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Learn_more {
+    text-align: center;
+}
