@@ -9,3 +9,30 @@
 .Organizational_contact {
     text-align: center ;
 }
+
+.Individual_header {
+    text-align: center;
+}
+
+.Individual_list {
+    margin-left: 20%;
+}
+
+.Individual_application {
+    text-align: center;
+}
+
+.Individual_courses_title {
+    text-align: center;
+}
+
+.Individual_courses {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Individual_courses > div {
+    flex: 1;
+    margin: 10px;
+}
