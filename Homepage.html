@@ -387,24 +387,22 @@ var WFAJAXWatcherVars = {"nonce":"a3450da432"};
 
 .For_Organizations {
     text-align: center;
-}
-
-.Org_Quotes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.Org_Quotes h3 {
-    margin: 0 400px;
+	margin-left: 500px;
 }
 
 .Orgs_content {
     display: flex;
-    justify-content: space-between;
+}
+
+.Orgs_content_1, .Orgs_content_2, .Orgs_content_3 {
+    flex: 1; /* This makes all columns take equal space */
+    padding: 10px; /* Optional: Add some padding */
+    box-sizing: border-box; /* Ensures padding is included in the width */
 }
 
 .Learn_more {
     text-align: center;
+	margin-left: 500px;
 }
 
 .For_Individuals {
@@ -497,10 +495,6 @@ var WFAJAXWatcherVars = {"nonce":"a3450da432"};
 						<div class="For_Organizations">
 							<h1>For Organizations</h1>
 						</div>
-						<div class="Org_Quotes">
-							<h3>Quote placeholder</h3>
-							<h3>Quote placeholder</h3>
-						</div>
 						<div class="Orgs_content">
 							<div class="Orgs_content_1">
 								<ul>Ready to create their own staff development program</ul>
@@ -510,14 +504,15 @@ var WFAJAXWatcherVars = {"nonce":"a3450da432"};
 								<li>We know that you can only grow as fast as you can develop your team.</li>
 							</div>
 							<div class="Orgs_content_2">
-								<p>Desiring to invest in their staff and see each individual grow as a person and a leader. <br>
-									All our learning engagements emphasize reflective learning, group processing, and practical application. <br>
-								We value our content but know transformation happens with consistent encouragement.</p>
+								<ul>Desiring to invest in their staff and see each individual grow as a person and a leader</ul>
+								<li>All our learning engagements emphasize reflective learning, group processing, and practical application.</li>
+								<li>We value our content but know transformation happens with consistent encouragement.</li>
 							</div>
 							<div class="Orgs_content_3">
-								<p>Concerned about cost and time investment. <br>We are committed to providing you with the most cost-effective learning approaches. <br>
-									We let you pay for what you need. <br>
-								We love to help organizations who desire to invest in people determine how to do that with a limited budget and busy schedules.</p>
+								<ul>Concerned about cost and time investment</ul>
+								<li>We are committed to providing you with the most cost-effective learning approaches.</li>
+								<li>We let you pay for what you need.</li>
+								<li>We love to help organizations who desire to invest in people determine how to do that with a limited budget and busy schedules.</li>
 							</div>
 						</div>
 						<div class="Learn_more">
